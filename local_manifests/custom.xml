@@ -13,7 +13,7 @@
   
   <!-- seedvault pinned to a specific revision -->
   <!-- <project path="external/seedvault" name="seedvault" remote="seedvault-app" revision="e38f958f9c1fade27fcb31f2e9b273450978f70a" /> -->
-  <project path="external/seedvault" name="seedvault" remote="seedvault-app" />  
+  <project path="external/seedvault" name="seedvault" remote="seedvault-app" clone-depth="1" />  
   
   <!-- Aurora Store from lephyrus repo-->
   <project path="prebuilts/aurorastore" name="ros-aurora-store" remote="aurorastore" clone-depth="1" />
