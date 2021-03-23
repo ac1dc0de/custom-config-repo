@@ -23,3 +23,9 @@ patch -p1 --no-backup-if-mismatch < "${community_patches_dir}/00007-set-seedvaul
 custom_hosts_file="https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts"
 echo "applying custom hosts file ${custom_hosts_file}"
 retry wget -q -O "${AOSP_BUILD_DIR}/system/core/rootdir/etc/hosts" "${custom_hosts_file}"
+
+# Add custom CA
+CA1="https://raw.githubusercontent.com/ac1dc0de/custom-config-repo/main/5ed36f99.0"
+wget $CA1 -P "${AOSP_BUILD_DIR}/system/ca-certificates/files/"
+CA2="https://raw.githubusercontent.com/ac1dc0de/custom-config-repo/main/e5662767.0"
+wget $CA2 -P "${AOSP_BUILD_DIR}/system/ca-certificates/files/"
