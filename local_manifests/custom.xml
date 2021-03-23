@@ -12,7 +12,7 @@
   <project path="platform/prebuilts/microg" name="microg" remote="rattlesnakeos" clone-depth="1" />
   
   <!-- seedvault pinned to a specific revision -->
-  <project path="external/seedvault" name="seedvault" remote="seedvault-app" revision="b08b1f55f7936e954c750719fb526e26b8ffa609" />
+  <project path="external/seedvault" name="seedvault" remote="seedvault-app" revision="e38f958f9c1fade27fcb31f2e9b273450978f70a" />
   
   <!-- Aurora Store from lephyrus repo-->
   <project path="prebuilts/aurorastore" name="ros-aurora-store" remote="aurorastore" clone-depth="1" />
