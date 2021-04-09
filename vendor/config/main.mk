@@ -13,9 +13,9 @@ PRODUCT_PACKAGES += \
     com.google.android.maps.jar
 
 # Vanadium
-#PRODUCT_PACKAGES += \
-#    TrichromeChrome \
-#    TrichromeWebView
+PRODUCT_PACKAGES += \
+    TrichromeChrome \
+    TrichromeWebView
 
 # Seedvault
 PRODUCT_PACKAGES += \
