@@ -15,11 +15,11 @@
   <!-- <project path="external/seedvault" name="seedvault" remote="seedvault-app" clone-depth="1" /> --> 
   <project path="external/seedvault" name="seedvault" remote="seedvault-app" revision="e38f958f9c1fade27fcb31f2e9b273450978f70a" />
   
-  <!-- vanadium prebuilt -->
+  <!-- vanadium prebuilt
   <project path="external/vanadium" name="platform_external_vanadium" remote="grapheneos" clone-depth="1" />
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/packages/apps/Browser2" />
-  <remove-project name="platform/packages/apps/QuickSearchBox" />
+  <remove-project name="platform/packages/apps/QuickSearchBox" /> -->
   
   <!-- Aurora Store from lephyrus repo-->
   <project path="prebuilts/aurorastore" name="ros-aurora" remote="aurorastore" clone-depth="1" />
