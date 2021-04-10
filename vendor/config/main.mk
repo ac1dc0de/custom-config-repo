@@ -12,11 +12,6 @@ PRODUCT_PACKAGES += \
     FakeStore \
     com.google.android.maps.jar
 
-# Vanadium
-PRODUCT_PACKAGES += \
-    TrichromeChrome \
-    TrichromeWebView
-
 # Seedvault
 PRODUCT_PACKAGES += \
     Seedvault
