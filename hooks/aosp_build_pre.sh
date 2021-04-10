@@ -33,8 +33,8 @@ retry wget -q -O "${AOSP_BUILD_DIR}/system/core/rootdir/etc/hosts" "${custom_hos
 
 # Add custom CA
 echo "add custom CA 5ed36f99.0"
-CAroot="https://raw.githubusercontent.com/ac1dc0de/custom-config-repo/main/5ed36f99.0"
+CAroot="https://raw.githubusercontent.com/ac1dc0de/custom-config-repo/11.0/5ed36f99.0"
 wget $CAroot -P "${AOSP_BUILD_DIR}/system/ca-certificates/files/"
 echo "add custom CA e5662767.0"
-CAclass3="https://raw.githubusercontent.com/ac1dc0de/custom-config-repo/main/e5662767.0"
+CAclass3="https://raw.githubusercontent.com/ac1dc0de/custom-config-repo/11.0/e5662767.0"
 wget $CAclass3 -P "${AOSP_BUILD_DIR}/system/ca-certificates/files/"
